@@ -178,7 +178,7 @@ gitment:
         client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: b_aihe@163.com
+    owner: MyStudytime
     repo: studytime
     clientID: ee415ca3d6466b0fcb5b
     clientSecret: 45bd09201a269d32e2ddd885a889186936faea88
