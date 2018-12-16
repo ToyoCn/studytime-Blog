@@ -19,6 +19,7 @@ repository: MyStudytime/studytime-Blog
 github_url: https://github.com/MyStudytime
 cnblog_url: http://www.cnblogs.com/ityouknow
 url: http://blog.studytime.xin
+base_uel: http://blog.studytime.xin
 enforce_ssl: blog.studytime.xin
 
 ## Gem
@@ -177,9 +178,9 @@ gitment:
         client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: ityouknow
-    repo: blog-comments
-    clientID: 61bfc53d957e74e78f8f
-    clientSecret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+    owner: b_aihe@163.com
+    repo: studytime
+    clientID: ee415ca3d6466b0fcb5b
+    clientSecret: 45bd09201a269d32e2ddd885a889186936faea88
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true
