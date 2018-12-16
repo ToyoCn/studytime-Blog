@@ -179,7 +179,7 @@ gitment:
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: MyStudytime
-    repo: studytime
+    repo: studytime-Blog
     clientID: ee415ca3d6466b0fcb5b
     clientSecret: 45bd09201a269d32e2ddd885a889186936faea88
 # 在使用其它评论组件时可点击显示 Disqus
