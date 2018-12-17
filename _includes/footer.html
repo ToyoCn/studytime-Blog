@@ -30,11 +30,11 @@
         </div>
     </div>
     <!-- Third-Party JS -->
-    <script type="text/javascript" src="http://blog.studytime.xin/bower_components/geopattern/js/geopattern.min.js"></script>
+    <script type="text/javascript" src="{{site.static-url}}/geopattern/js/geopattern.min.js"></script>
     <!-- My JS -->
-    <script type="text/javascript" src="http://blog.studytime.xin/assets/js/script.js"></script>
+    <script type="text/javascript" src="{{site.static-url}}/assets/js/script.js"></script>
     {% for javascript in page.javascript %}
-    <script src="http://blog.studytime.xin/assets/js/{{javascript}}"></script>
+    <script src="{{site.static-url}}/assets/js/{{javascript}}"></script>
     {% endfor %}
      
      <!-- Cnzz Analytics -->
