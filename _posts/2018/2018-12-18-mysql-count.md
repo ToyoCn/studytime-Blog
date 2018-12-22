@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MySQL常见的统计解决方案
+title: MySQL常见的统计解决方案整理
 category: mysql 
 tags: [mysql]
 ---
