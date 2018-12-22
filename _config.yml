@@ -18,10 +18,10 @@ static-url: https://static.studytime.xin/studytime-Blog
 
 repository: MyStudytime/studytime-Blog
 github_url: https://github.com/MyStudytime
-cnblog_url: http://www.cnblogs.com/ityouknow
-url: http://blog.studytime.xin
-base_uel: http://blog.studytime.xin
-enforce_ssl: blog.studytime.xin
+sfblog_url: https://segmentfault.com/u/baihe
+url: http://studytime.xin
+base_uel: http://studytime.xin
+enforce_ssl: studytime.xin
 
 ## Gem
 plugins:
@@ -68,8 +68,8 @@ navs:
     label: PHP
 
   -
-    href: /Java.html
-    label: Java
+    href: /Linux.html
+    label: Linux
 
   -
     href: /archives.html
@@ -88,54 +88,30 @@ navs:
 labels:
 
   -
-    href: /share/2017/10/01/resource-sharing.html
-    name: 资源
+    href: /Tool.html
+    name: 工具
 
-  -
-    href: /life.html
-    name: 故事
+  - href: /Linux.html
+    name: Linux
 
-  -
-    href: /arch.html
-    name: 架构
-    
-  -
-    href: /jvm.html
-    name: Jvm
+  - href: /Laravel.html
+    name: Laravel
 
-  -
-    href: /fastdfs.html
-    name: FastDFS
+  - href: /mysql.html
+    name: mysql
 
-  -
-    href: /mongodb.html
-    name: MongoDB
-
-  -
-    href: /docker.html
-    name: Docker
-
-  -
-    href: /open-source.html
-    name: Code   
 
 # selected articles
 classes:
 
   -
-    href: /life.html
-    name: 我的故事
-    describe: 生活就是故事，故事就是生活
+    href: /Tool.html
+    name: 工具
+    describe: 工欲善其事，必先利其器
 
-  -
-    href: /arch.html
-    name: 架构师之路
-    describe: 一个架构师的自我修养
-
-  -
-    href: /jvm.html
-    name: Jvm系列文章
-    describe: Java之根基，Java程序员必学
+  - href: /Mysql.html
+    name: mysql
+    describe: 数据库
 
 
 # ---------------- #
@@ -169,10 +145,10 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: ityouknow
+    username: studytime
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: ityouknow
+    owner: studytime
     repo: blog-comments
     oauth:
         client_id: 61bfc53d957e74e78f8f

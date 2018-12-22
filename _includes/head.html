@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="/bower_components/assets/images/{{ site.favicon }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{site.static-url}}/assets/images/favicon.png">
 
     <title>{% if page.titlebar %} {{ page.titlebar | escape }} - studyTime {% elsif page.title %} {{ page.title | escape }} - studyTime博客 {% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords | escape }}{% else %}{{ site.keywords }}{% endif %}">

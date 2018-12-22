@@ -1,13 +1,16 @@
 ---
 layout: post
 title: PHPStorm IDE使用CodeSniffer进行代码规范化管理
-category: PHP 
-tags: [PHP]
+category: tool 
+tags: [tool]
 ---
 
 PHP_CodeSniffer是一个优秀的代码风格检测工具,定义了一系列的代码规范。
 
 > 通常使用官方的代码规范标准，比如PHP的PSR2,能够检测出不符合代码规范的代码并发出警告或报错(可设置报错等级),常被用作团队开发时维护编码风格以及标准。
+
+## 快速上手
+
 
 ### 安装
 

@@ -1,12 +1,11 @@
 ---
 layout: page
-title: MongoDB 系列文章
-titlebar: MongoDB
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; MongoDB 系列教程
-menu: mongodb
+title: Tool系列文章
+titlebar: Tool
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Tool系列文章
+menu: Tool
 css: ['blog-page.css']
-permalink: /mongodb
-keywords: MongoDB,MongoDB 集群,部署,搭建,MongoDB 教程
+permalink: /Tool
 ---
 
 <div class="row">
@@ -15,7 +14,7 @@ keywords: MongoDB,MongoDB 集群,部署,搭建,MongoDB 教程
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='mongodb'  or post.keywords contains 'mongodb' %}
+                {% if post.category=='tool' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
