@@ -134,7 +134,9 @@ FOUND 2 ERROR(S) AFFECTING 2 LINE(S)
 具体参数中,
 Show warnings as: Warnning，标示提示级别
 Coding standard PSR2 代表执行的规范如果找不到这个选项，点一下紧挨着的刷新按钮。
-![image](http://static.studytime.xin/image/articles/php-code_snaffer3.jpg)
+
+![image](http://static.studytime.xin/image/articles/php-code-snaffer3.jpg)
+
 
 
 
