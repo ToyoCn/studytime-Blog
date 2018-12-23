@@ -157,7 +157,7 @@ gitment:
 gitalk:
     owner: MyStudytime
     repo: studytime-Blog
-    clientID: 1caf5f66951ffb5159df
-    clientSecret: 915d0500469278f74acc27f14c1f708e92588307
+    clientID: 4d7d6434cf0d65549767
+    clientSecret: 14f338ef08c41f688139e64dbd404ada9db19544
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true
