@@ -24,7 +24,7 @@ permalink: /link
 
 ## 个人链接
 
-- [studytime](http://www.studytime.xin/) - 个人博客
+- [studytime](https://www.studytime.xin/) - 个人博客
 - [github](https://github.com/MyStudytime) -  github地址
 - [Segmentfault](https://segmentfault.com/u/baihe) - 技术博客
 
@@ -33,6 +33,6 @@ permalink: /link
 *需要展示你的网站，就在本页下面留言吧，也算是一种宣传方式。格式要求如下：*
 
 - 网站名称：studytime  
-- 网站链接：http://www.studytime.xin  
+- 网站链接：https://studytime.xin  
 - 网站描述：Bai He的个人博客，分享技术，分享生活  
 

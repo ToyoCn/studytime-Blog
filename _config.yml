@@ -19,9 +19,9 @@ static-url: https://static.studytime.xin/studytime-Blog
 repository: MyStudytime/studytime-Blog
 github_url: https://github.com/MyStudytime
 sfblog_url: https://segmentfault.com/u/baihe
-url: http://studytime.xin
-base_uel: http://studytime.xin
-enforce_ssl: studytime.xin
+url: https://studytime.xin
+base_uel: https://studytime.xin
+enforce_ssl: https://studytime.xin
 
 ## Gem
 plugins:
