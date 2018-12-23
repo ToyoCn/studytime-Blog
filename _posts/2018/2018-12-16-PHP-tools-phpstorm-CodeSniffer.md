@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PHPStormIDE使用CodeSniffer进行代码规范化管理
+title: PHPStorm IDE使用CodeSniffer进行代码规范化管理
 category: tool 
 tags: [tool]
 ---
