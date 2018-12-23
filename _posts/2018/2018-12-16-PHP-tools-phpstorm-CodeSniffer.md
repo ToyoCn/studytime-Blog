@@ -122,9 +122,9 @@ FOUND 2 ERROR(S) AFFECTING 2 LINE(S)
 ---
 在 “Preferences”->“Languages & Frameworks”->“PHP”->“Quality Tools” ->“Code Sniffer” 配置中，“Configuration” 项后点击...并输入 phpcs 路径，可以使用 “Validate” 按钮验证phpcs路径是否正确。
 
-![image](http://static.studytime.xin/image/articles/php_code_snaffer.jpg)
+![image](https://static.studytime.xin/image/articles/php_code_snaffer.jpg)
 
-![image](http://static.studytime.xin/image/articles/php-code_snaffer2.jpg)
+![image](https://static.studytime.xin/image/articles/php-code_snaffer2.jpg)
 
 2. **开启验证**
 
@@ -135,7 +135,7 @@ FOUND 2 ERROR(S) AFFECTING 2 LINE(S)
 Show warnings as: Warnning，标示提示级别
 Coding standard PSR2 代表执行的规范如果找不到这个选项，点一下紧挨着的刷新按钮。
 
-![image](http://static.studytime.xin/image/articles/php-code-snaffer3.jpg)
+![image](https://static.studytime.xin/image/articles/php-code-snaffer3.jpg)
 
 
 
