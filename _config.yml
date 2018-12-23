@@ -14,7 +14,7 @@ description: 本站是白贺的技术分享博客。内容涵盖生活故事、P
 keywords: studytime,白贺,Bai He,Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,Docker,生活故事,架构,大数据,一线,FastDFS,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,IT技术博客,Java,Python,
 encoding: "utf-8"
 favicon: favicon.png
-static-url: https://static.studytime.xin/studytime-Blog
+static-url: http://static.studytime.xin/studytime-Blog
 
 repository: MyStudytime/studytime-Blog
 github_url: https://github.com/MyStudytime
