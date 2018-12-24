@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LNMP环境搭建篇:1.Nginx1.12.2编译安装
+title: LNMP环境搭建篇:Nginx1.12.2编译安装
 category: PHP
 tags: [PHP]
 ---
