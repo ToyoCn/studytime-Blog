@@ -5,6 +5,8 @@ category: tool
 tags: [tool]
 ---
 
+Charles 是在 Mac 下常用的网络封包截取工具，通过将自己设置成系统的网络访问代理服务器，使得所有的网络访问请求都通过它来完成，从而实现了网络封包的截取和分析
+
 ## 简介
 
 ![](https://static.studytime.xin/image/articles/charles/charles-logo.png)
