@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  博客搭建系列:阿里云免费ssl证书配置网站https
-category: PHP 
-tags: [PHP]
+category: Blog 
+tags: [Blog]
 ---
 
 针对网站升级https，整理了下http和https的一些分析，以及配置方法整理
