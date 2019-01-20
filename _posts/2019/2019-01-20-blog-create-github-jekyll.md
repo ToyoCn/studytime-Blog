@@ -56,16 +56,16 @@ jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和W
 点击`Settings`按钮打开设置页面，页面往下拉到GitHub Pages相关设置，在`Source`下面的复选框中选择`master branch`，然后点击旁边的`Save`按钮保存设置。
 
 #### 4. 重命名项目
-点击`Settings`按钮打开设置页面，重命名项目名称为：YourGithubUserName.github.io
+点击`Settings`按钮打开设置页面，重命名项目名称为：`YourGithubUserName.github.io`
 ![](https://static.studytime.xin/image/articles/Blog/Blog-3.png)
 
-#### 5. 重命名之后，再次回到 Settings > GitHub Pages 页面
-会发现存在这样一个地址： https://YourGithubUserName.github.io
+#### 5. 重命名之后，再次回到 `Settings` > `GitHub Pages` 页面
+会发现存在这样一个地址： `https://YourGithubUserName.github.io`
 
 特别注意此处完成后，虽然也可以打开页面，但是跳转页面还是我的页面，需要修改jekyll配置文件。
 
 #### 6. 配置 _config.yml
-打开项目目录下的 _config.yml 文件，修改以下配置：
+打开项目目录下的 `_config.yml` 文件，修改以下配置：
 
 ```
 repository: MyStudytime/studytime-Blog  自己的仓库地址
