@@ -4,11 +4,12 @@ title:  博客搭建系列:jekyll部署GitHub Pages
 category: Blog 
 tags: [Blog]
 
-jekyll简单部署到GitHub Pages，讲解描述。
+---
+
+jekyll部署GitHub Pages 搭建个人博客
+
 
 ![](https://static.studytime.xin/image/articles/Blog/Blog.png?x-oss-process=image/resize,m_fixed,h_500,w_1000)
-
-
 
 ## 目录
 
@@ -44,26 +45,26 @@ jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和W
 
 ### 步骤详解
 
-#### fork项目
+#### 1. fork项目
 以我个人项目为例，打给地址`https://github.com/MyStudytime/studytime-Blog`，点击`Fork`按钮复制代码到自己的仓库。大概1分钟左右可以完成。
 ![](https://static.studytime.xin/image/articles/Blog/Blog-5.png)
 
-#### 删除 CNAME 文件
+#### 2. 删除 CNAME 文件
 删除项目中的 CNAME 文件，CNAME 是定制域名的时候使用的内容，如果不使用定制域名会存在冲突。
 
-#### 设置 GitHub Pages
+#### 3. 设置 GitHub Pages
 点击`Settings`按钮打开设置页面，页面往下拉到GitHub Pages相关设置，在`Source`下面的复选框中选择`master branch`，然后点击旁边的`Save`按钮保存设置。
 
-#### 重命名项目
+#### 4. 重命名项目
 点击`Settings`按钮打开设置页面，重命名项目名称为：YourGithubUserName.github.io
 ![](https://static.studytime.xin/image/articles/Blog/Blog-3.png)
 
-#### 重命名之后，再次回到 Settings > GitHub Pages 页面
+#### 5. 重命名之后，再次回到 Settings > GitHub Pages 页面
 会发现存在这样一个地址： https://YourGithubUserName.github.io
 
 特别注意此处完成后，虽然也可以打开页面，但是跳转页面还是我的页面，需要修改jekyll配置文件。
 
-#### 配置 _config.yml
+#### 6. 配置 _config.yml
 打开项目目录下的 _config.yml 文件，修改以下配置：
 
 ```
@@ -74,7 +75,7 @@ url: https://www.studytime.xin  上面设置的https://YourGithubUserName.github
 
 完成上述配置后，大概等待一二分钟后，可访问`https://YourGithubUserName.github.io`即可打开网站地址。
 
-#### 配置自定义域名
+#### 7. 配置自定义域名
 完成上述配置后，虽然`https://YourGithubUserName.github.io`也可以打开博客。但是对于崇尚个性的程序员难免会，想着配置自己的域名。
 对于怎么域名以及备案这些，就不再此，再述了。
 
