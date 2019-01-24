@@ -132,6 +132,12 @@ side_bar_repo_limit: 6 # Number of repos to show
 #     tracking_id : ''  # ex. UA-72165600-X
 
 
+leancloud:
+  enable: true
+  app_id: LK6GLVKOlnjJlJgDi644sOdY-gzGzoHsz
+  app_key: BIE0oEoePyYBgMWj87XWvDoI
+
+
 # For about.html. Fell free to create your own!
 skill_software_keywords: [Java, MySQL, Oracle, Design Patterns]
 skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
