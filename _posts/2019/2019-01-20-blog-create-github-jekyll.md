@@ -3,10 +3,9 @@ layout: post
 title:  博客搭建系列:jekyll部署GitHub Pages
 category: Blog 
 tags: [Blog]
-
 ---
 
-jekyll部署GitHub Pages 搭建个人博客
+jekyll在GitHub Pages部署搭建个人博客
 
 
 ![](https://static.studytime.xin/image/articles/Blog/Blog.png?x-oss-process=image/resize,m_fixed,h_500,w_1000)
