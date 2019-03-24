@@ -1,4 +1,11 @@
-## 团队内部Redis使用约定  
+---
+layout: post
+title:  团队内部redis使用规范
+category: PHP 
+tags: [PHP]
+---
+
+团队内部Redis使用约定  
 
 ### 目的
    为了避免再次出现因redis使用不当，而造成异常影响业务，以及方便后期运维，故而经团队内部人员协商，出具redis使用规范，通过规范使用更好、更高效，更安全的使用redis缓存。
