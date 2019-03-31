@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  博客搭建系列:jekyll部署GitHub Pages
-category: Blog 
-tags: [Blog]
+category: self-blog 
+tags: [self-blog]
 ---
 
 jekyll在GitHub Pages部署搭建个人博客
