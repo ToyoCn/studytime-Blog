@@ -18,6 +18,9 @@ Mac 修改系统默认Java版本
 #### 复制需要更改的java sdk所在目录更新使用版本
 `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/`
 
+![](https://static.studytime.xin/image/articles/java/update-version/mac-java-update-version1.jpg)
+
+
 #### 查看更新后的版本
 `java -version`
 
