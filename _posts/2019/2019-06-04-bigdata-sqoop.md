@@ -3,6 +3,7 @@ layout: post
 title:  Sqoop学习之路
 category: bigdata 
 tags: [bigdata]
+keywords: bigdata,Sqoop,Sqoop学习之路
 ---
 
 Sqoop知识梳理、环境搭建、基本原理、常用命令、Sqoop练习等
