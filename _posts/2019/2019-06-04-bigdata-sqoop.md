@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Sqoop知识梳理
+title:  Sqoop学习之路
 category: bigdata 
 tags: [bigdata]
 ---
