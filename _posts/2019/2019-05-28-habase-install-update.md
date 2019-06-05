@@ -5,7 +5,7 @@ category: Hbase
 tags: [Hbase]
 ---
 
-Hbase伪分布式搭建
+Hbase伪分布式搭建、以及基本使用方法
 
 ## 搭建说明
 

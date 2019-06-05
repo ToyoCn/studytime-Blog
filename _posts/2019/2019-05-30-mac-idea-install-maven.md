@@ -3,9 +3,10 @@ layout: post
 title:  Mac配置Maven及IntelliJ IDEA Maven配置
 category: Java 
 tags: [Java]
+keywords: Java,Sqoop,Sqoop学习之路
 ---
 
-Mac配置Maven及IntelliJ IDEA Maven配置
+mac上安装maven、以及IDEA上Maven配置
 
 ## 目录
 
