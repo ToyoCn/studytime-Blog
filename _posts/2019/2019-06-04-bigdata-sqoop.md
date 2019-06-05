@@ -5,10 +5,7 @@ category: bigdata
 tags: [bigdata]
 ---
 
-Sqoop知识梳理
-
-
-
+Sqoop知识梳理、环境搭建、基本原理、常用命令、Sqoop练习等
 
 ## Sqoop学习之路
 
