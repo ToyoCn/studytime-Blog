@@ -107,7 +107,7 @@ labels:
     name: blog
 
   - href: /bigdata.html
-      name: 大数据
+    name: 大数据
 
 # selected articles
 classes:
