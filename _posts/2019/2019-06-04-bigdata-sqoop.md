@@ -35,35 +35,35 @@ Sqoop 2.0 主要解决 Sqoop 1.x 扩展难的问题，提出的 Server-Client �
 
 ### 二、基本思想
 
-采用插拔式Connector的架构，Connector是与特定数据源相关的组件，主要负责抽取和加载数据.
+采用插拔式 Connector 的架构，Connector 是与特定数据源相关的组件，主要负责抽取和加载数据.
 
 主要具备的特点:
-- 性能高，Sqoop采用MapReduce完成数据的导入导出，具备了MapReduce所具有的优点，包括并发度可控，高容错性，高扩展性等.
+- 性能高，Sqoop 采用 MapReduce 完成数据的导入导出，具备了 MapReduce 所具有的优点，包括并发度可控，高容错性，高扩展性等.
 - 自动类型转换，可读取数据源元信息，自动完成数据类型映射，当然用户也可自定义类型映射关系.
 - 自动传播元信息，数据在数据发送端和数据接收端之间传递数据的同时，也会传递元信息，保证接收端和采集端元信息一致.
 
 
 ### 三、工作机制
 
-Sqoop1是一个客户端工具，不需要启动任何服务就可以使用。是一个只有的Map的MapReduce作业，充分利用MapReduce的高容错行以及高扩展性的优点，将数据迁移任务转换为MapReduce来作业。
+Sqoop1 是一个客户端工具，不需要启动任何服务就可以使用。是一个只有的 Map 的 MapReduce 作业，充分利用 MapReduce 的高容错行以及高扩展性的优点，将数据迁移任务转换为 MapReduce 来作业。
 
 
 整体架构:
-将导入或导出命令翻译成MapReduce程序来实现, 在翻译出的MapReduce中主要是对InputFormat和OutputFormat进行定制.
+将导入或导出命令翻译成 MapReduce 程序来实现, 在翻译出的 MapReduce 中主要是对 InputFormat 和 OutputFormat 进行定制.
 
 Sqoop1的整体架构图:
 ![](https://static.studytime.xin/image/articles/Sqoop/04222D63-C912-4F34-B1A4-3ED1F108ACE6.png)
 
 工作流程简述:
-- 客户端shell提交迁移作业
-- Sqoop从关系型数据库中读取元信息
-- 根据鬓发度和数据表大小将数据划分成若干分片，每片举哀给一个Map Task处理
+- 客户端 shell 提交迁移作业
+- Sqoop 从关系型数据库中读取元信息
+- 根据鬓发度和数据表大小将数据划分成若干分片，每片举哀给一个 Map Task 处理
 - 多个Map Task同时读取数据库中数据，并行将数据写入目标存储系统中，比如（hdfs、Hbase、Hive等）
 
 允许用户通过定制各种参数控制作业，包括任务并发度，数据数据源，目标数据源，超时时间等。
 
 缺点整理:
-- Connector定制麻烦
+- Connector 定制麻烦
 - 客户端软件繁多
 - 安全问题
 
@@ -71,7 +71,7 @@ Sqoop1的整体架构图:
 ### 四、安装
 #### 1、 前提概述
 
-将来sqoop在使用的时候有可能会跟那些系统或者组件打交道？
+将来 sqoop 在使用的时候有可能会跟那些系统或者组件打交道？
 HDFS， MapReduce， YARN， ZooKeeper， Hive， HBase， MySQL
 
 #### 2、软件下载
@@ -80,13 +80,13 @@ HDFS， MapReduce， YARN， ZooKeeper， Hive， HBase， MySQL
 ![](https://static.studytime.xin/image/articles/Sqoop/1F5D9A30-B43B-4054-9043-E3D84172230F.png?x-oss-process=image/resize,m_fixed,h_400,w_800)
 
 sqoop版本说明:
-绝大部分企业所使用的sqoop的版本都是 sqoop1
+绝大部分企业所使用的 sqoop 的版本都是 sqoop1
 sqoop-1.4.6 或者 sqoop-1.4.7 它是 sqoop1
 sqoop-1.99.4----都是 sqoop2
 此处使用sqoop-1.4.7版本sqoop-1.4.7.bin__hadoop-2.0.4-alpha.tar.gz
 
 #### 3、安装步骤
-（1）通过命令下载Sqoop，解压后，放到/software/ 目录中：
+（1）通过命令下载 Sqoop，解压后，放到/software/ 目录中：
 
 ```
 cd /data/pkg/
