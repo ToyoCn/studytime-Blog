@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html style="width: 100%;height:100%">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>白贺的个人博客</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            position: relative;
+        }
+
+        .img-404 {
+            /*background: url(img/404.png) center center no-repeat;
+                    background-size:350px 434px;*/
+            width: 350px;
+            height: 504px;
+            position: absolute;
+            z-index: 100;
+            left: 50%;
+            top: 50%;
+            margin-left: -175px;
+            margin-top: -252px;
+        }
+
+        .img-404 a {
+            text-decoration: none;
+            font-weight: 400;
+            background-size: 18px 18px;
+            color: #666;
+            font-size: 14px;
+            position: absolute;
+            bottom: -20px;
+            display: inline-block;
+            text-align: center;
+            height: 18px;
+            line-height: 20px;
+            padding-left: 24px;
+            left: 50%;
+            margin-left: -40px;
+        }
+
+        .logo {
+            width: 150px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .feidie {
+            width: 203px;
+            margin: 20px auto;
+        }
+
+        .img404 {
+            width: 350px;
+        }
+    </style>
+</head>
+
+<body style="">
+<div class="img-404" id="scene"
+     style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+    <img src="{{site.static-url}}/assets/images/favicon.png" class="logo">
+    <img src="/{{site.static-url}}/assets/images/feidie.png" class="layer feidie" data-depth="0.30"
+         style="transform: translate3d(-1.63627px, 11.4183px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
+    <img src="{{site.static-url}}/assets/images/img-404.png" class="img404">
+    <a href="/">返回首页</a>
+</div>
+
+</body>
+</html>
