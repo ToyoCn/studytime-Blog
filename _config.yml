@@ -64,6 +64,8 @@ navs:
     href: /
     label: Home
 
+  - href: /bigdata.html
+    label: bigdata
   -
     href: /PHP.html
     label: PHP
@@ -102,7 +104,10 @@ labels:
     name: mysql
 
   - href: /self-blog.html
-    name: Blog
+    name: blog
+
+  - href: /bigdata.html
+      name: 大数据
 
 # selected articles
 classes:
@@ -142,8 +147,7 @@ leancloud:
 skill_software_keywords: [Java, MySQL, Oracle, Design Patterns]
 skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
 skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, NodeJS, ExpressJS, MongoDB, Redis, PHP,  Boostrap]
-skill_mobile_app_keywords: [vuejs, hyhird app]
-
+skill_mobile_app_keywords: [vuejs, hyhi
 
 # ---------------- #
 #      Comments    #
@@ -164,7 +168,7 @@ gitment:
         client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: MyStudytime
+    owner: ]]]]]]]
     repo: studytime-Blog
     clientID: 4d7d6434cf0d65549767
     clientSecret: 14f338ef08c41f688139e64dbd404ada9db19544
