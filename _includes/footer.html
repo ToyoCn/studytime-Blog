@@ -10,6 +10,19 @@
                 Github
             </a>
         </div>
+
+        {% assign count = 0 %}
+        {% for post in site.posts %}
+        {% assign single_count = post.content | strip_html | strip_newlines | remove: " " | size %}
+        {% assign count = count | plus: single_count %}
+        {% endfor %}
+
+        {% if count > 10000 %}
+        {{ count | divided_by: 10000 }} 万 {{ count | modulo: 10000 }}
+        {% else %}
+        {{ count }}
+        {% endif %}
+
         <div class="site-footer-links mobile-hidden">
             {% for nav in site.labels %}
             <a href="{{ nav.href }}" title="{{ nav.name }}" target="{{ nav.target | default: _self }}">{{ nav.name }}</a>
