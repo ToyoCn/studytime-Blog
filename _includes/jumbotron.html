@@ -1,7 +1,7 @@
 <section class="jumbotron geopattern" data-pattern-id="{{ page.title }}">
     <div class="container">
         <div id="jumbotron-meta-info">        
-            <h1>{{ page.title }}</h1>
+            <h2>{{ page.title }}</h2>
             <span class="meta-info">
                 {% if page.subtitle %}
                     {{ page.subtitle }}
@@ -10,7 +10,7 @@
 
 
                 <span class="mega-octicon octicon-cloud-upload"></span>&nbsp;&nbsp;
-                <span class="octicon octicon-calendar"></span> {{ page.date | date: "%Y/%m/%d" }}
+<!--                <span class="octicon octicon-calendar"></span> {{ page.date | date: "%Y/%m/%d" }}-->
                 本文 <font color="#FFFFFF">{{ page.content | strip_html | strip_newlines | remove: " " | size }}</font> 字
                 ，阅读全文约需 <font color="#FFFFFF">{{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }}</font> 分钟
                 {% endif %}
