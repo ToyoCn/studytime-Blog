@@ -8,6 +8,8 @@
                 {% endif %}
                 {% if page.date %}
                 <span class="octicon octicon-calendar"></span> {{ page.date | date: "%Y/%m/%d" }}
+                <br>
+                <span class="mega-octicon octicon-cloud-upload"></span>&nbsp;&nbsp;
 
                 本文 {{ page.content | strip_html | strip_newlines | remove: " " | size }} 字
 
