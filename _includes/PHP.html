@@ -8,9 +8,6 @@
             <li class="posts-list-item">
                 <div class="posts-content">
                     <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-                    {{ page.content | strip_html | strip_newlines | remove: " " | size }}
-
-                    {{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }}
                     <a class="posts-list-name bubble-float-left" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                     <span class='circle'></span>
                 </div>
