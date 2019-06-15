@@ -1,7 +1,7 @@
 <footer class="container">
     <div class="site-footer">
 
-        <div class="site-footer-icons">
+        <div class="site-footer-icons" style="word-break:normal; width:auto; display:block; white-space:pre-wrap;word-wrap : break-word ;overflow: hidden ;">
             <a target="_blank" rel="nofollow" href="https://segmentfault.com/u/baihe">
                 segmentfault
             </a>
@@ -9,6 +9,7 @@
                 Github
             </a>
         </div>
+
         <div class="site-footer-links mobile-hidden">
             {% for nav in site.labels %}
             <a href="{{ nav.href }}" title="{{ nav.name }}" target="{{ nav.target | default: _self }}">{{ nav.name }}</a>
