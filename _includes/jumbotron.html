@@ -10,9 +10,9 @@
                 <span class="octicon octicon-calendar"></span> {{ page.date | date: "%Y/%m/%d" }}
                 <br>
                 <span class="mega-octicon octicon-cloud-upload"></span>&nbsp;&nbsp;
-                本文 <font color="#00FF00">{{ page.content | strip_html | strip_newlines | remove: " " | size }}</font> 字
+                本文 <font color="#FFFFFF">{{ page.content | strip_html | strip_newlines | remove: " " | size }}</font> 字
 
-                ，阅读全文约需 <font color="#00FF00">{{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }}</font> 分钟
+                ，阅读全文约需 <font color="#FFFFFF">{{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }}</font> 分钟
                 {% endif %}
             </span>
         </div>
