@@ -35,6 +35,30 @@
     <link rel="stylesheet" href="{{site.static-url}}/assets/css/{{css}}">
     {% endfor %}
 
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes" />
+
+    <style type="text/css">
+        @media(max-width:960px)
+        {
+            /* 网页全屏显示 */
+            body {width:100%;}
+
+            /* 正文全屏显示 */
+            #divMain{width:100%}
+
+            /* 为了避免正文图片超出屏幕宽度 */
+            /* 正文图片宽度最多是屏幕宽度的90% */
+            #divMain img{max-width:90%}
+
+            /* 隐藏头部、导航、侧栏、页脚 */
+            #site-header-nav{display:none}
+            /*#divNav{display:none}*/
+            /*#divSide{display:none}*/
+            /*#divBottom{display:none}*/
+        }
+    </style>
     <script type="text/javascript" src="{{site.static-url}}/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="{{site.static-url}}/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
