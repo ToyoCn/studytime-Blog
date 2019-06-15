@@ -37,7 +37,7 @@
             var int = setInterval(fixCount, 100);
             var busuanziSiteOffset = parseInt(10000);
             function fixCount() {
-                if ($("#busuanzi_container_site_pv").css("display") != "none") {
+                if ($("#busuanzi_value_site_pv").css("display") != "none") {
                     clearInterval(int);
                     $("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html()) + busuanziSiteOffset);
                 }
