@@ -1,20 +1,68 @@
 <section class="jumbotron geopattern" data-pattern-id="{{ page.title }}">
     <div class="container">
         <div id="jumbotron-meta-info">        
-            <h2>{{ page.title }}</h2>
-            <span class="meta-info">
-                {% if page.subtitle %}
-                    {{ page.subtitle }}
-                {% endif %}
-                {% if page.date %}
+<!--            <h2>{{ page.title }}</h2>-->
+<!--            <span class="meta-info">-->
+<!--                {% if page.subtitle %}-->
+<!--                    {{ page.subtitle }}-->
+<!--                {% endif %}-->
+<!--                {% if page.date %}-->
 
 
-                <span class="mega-octicon octicon-cloud-upload"></span>&nbsp;&nbsp;
-<!--                <span class="octicon octicon-calendar"></span> {{ page.date | date: "%Y/%m/%d" }}-->
-                本文 <font color="#FFFFFF">{{ page.content | strip_html | strip_newlines | remove: " " | size }}</font> 字
-                ，阅读全文约需 <font color="#FFFFFF">{{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }}</font> 分钟
-                {% endif %}
-            </span>
+<!--                <span class="mega-octicon octicon-cloud-upload"></span>&nbsp;&nbsp;-->
+<!--&lt;!&ndash;                <span class="octicon octicon-calendar"></span> {{ page.date | date: "%Y/%m/%d" }}&ndash;&gt;-->
+<!--                本文 <font color="#FFFFFF">{{ page.content | strip_html | strip_newlines | remove: " " | size }}</font> 字-->
+<!--                ，阅读全文约需 <font color="#FFFFFF">{{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }}</font> 分钟-->
+<!--                {% endif %}-->
+<!--            </span>-->
+            <div class="post-topheader__info" data-username="TDon" data-userslug="tdon" data-useravatar="https://avatar-static.segmentfault.com/556/099/556099345-596cba02b2ff8_big64">
+
+
+
+                <h1 class="h1 post-topheader__info--title" id="articleTitle" data-id="1190000012455955">
+                    <a href="https://segmentfault.com/a/1190000012455955">{{ page.title }}</a>
+                </h1>
+
+                <div class="content__tech hidden-xs">
+                    <a href="https://segmentfault.com/a/1190000012455955" class="blog-type-common blog-type-1-before" target="_blank" data-content="
+                                                                                        原创
+                                                                                        "></a>
+
+                    <ul class="taglist--inline inline-block article__title--tag mr10">
+
+                        <li class="tagPopup mb5">
+                            <a class="tag" href="https://segmentfault.com/t/vue.js/blogs" data-toggle="popover" data-img="https://avatar-static.segmentfault.com/256/038/2560380373-565be73e6fe13_big64" data-placement="top" data-original-title="vue.js" data-id="1040000004003243">
+                                vue.js
+                            </a>
+                        </li>
+                        <li class="tagPopup mb5">
+                            <a class="tag" href="https://segmentfault.com/t/nuxt.js/blogs" data-toggle="popover" data-img="" data-placement="top" data-original-title="nuxt.js" data-id="1040000012803339">
+                                nuxt.js
+                            </a>
+                        </li>
+                        <li class="tagPopup mb5">
+                            <a class="tag" href="https://segmentfault.com/t/node.js/blogs" data-toggle="popover" data-img="https://avatar-static.segmentfault.com/740/312/74031254-1040000000089918_big64" data-placement="top" data-original-title="node.js" data-id="1040000000089918">
+                                node.js
+                            </a>
+                        </li>
+                        <li class="tagPopup mb5">
+                            <a class="tag" href="https://segmentfault.com/t/koa.js/blogs" data-toggle="popover" data-img="" data-placement="top" data-original-title="koa.js" data-id="1040000000622042">
+                                koa.js
+                            </a>
+                        </li>
+                        <li class="tagPopup mb5">
+                            <a class="tag" href="https://segmentfault.com/t/%E5%8D%9A%E5%AE%A2/blogs" data-toggle="popover" data-img="" data-placement="top" data-original-title="博客" data-id="1040000000090328">
+                                博客
+                            </a>
+                        </li>
+                    </ul>
+                    <span>
+                                                1.8k 次阅读
+                                                &nbsp;·&nbsp;
+                                                读完需要 4 分钟
+                                                                            </span>
+                </div>
+            </div>
         </div>
     </div>
 </section>
