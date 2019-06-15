@@ -14,7 +14,7 @@
             <a href="{{ nav.href }}" title="{{ nav.name }}" target="{{ nav.target | default: _self }}">{{ nav.name }}</a>
             {% endfor %}
             <br>
-            总访问量<span id="busuanzi_value_site_pv"></span>次 &nbsp;&nbsp; . &nbsp;&nbsp;总访客数<span id="busuanzi_value_site_uv"></span>人次
+            总访问量<span class="octicon .octicon-no-newline"></span><span id="busuanzi_value_site_pv"></span>次 &nbsp;&nbsp; && &nbsp;&nbsp;独立访客<span class="octicon .octicon-x"></span><span id="busuanzi_value_site_uv"></span>人次
         </div>
 
         <div class="scrolltop">
@@ -32,18 +32,6 @@
     <script type="text/javascript" src="{{site.static-url}}/assets/js/script.js"></script>
     <!-- bu Suan zi -->
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <script>
-        $(document).ready(function() {
-            var int = setInterval(fixCount, 100);
-            var busuanziSiteOffset = parseInt(10000);
-            function fixCount() {
-                if ($("#busuanzi_value_site_pv").css("display") != "none") {
-                    clearInterval(int);
-                    $("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html()) + busuanziSiteOffset);
-                }
-            }
-        });
-    </script>
 
     {% for javascript in page.javascript %}
     <script src="{{site.static-url}}/assets/js/{{javascript}}"></script>
