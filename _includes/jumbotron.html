@@ -7,16 +7,17 @@
                     {{ page.subtitle }}
                 {% endif %}
                 {% if page.date %}
+<!--                <span class="mega-octicon octicon-cloud-upload"></span>&nbsp;&nbsp;-->
+<!--                <span class="octicon octicon-calendar"></span> -->
 
-
-                <span class="mega-octicon octicon-cloud-upload"></span>&nbsp;&nbsp;
-<!--                <span class="octicon octicon-calendar"></span> {{ page.date | date: "%Y/%m/%d" }}-->
-                 <span>
-                                                1.8k 次阅读
-                                                &nbsp;·&nbsp;
-                                                读完需要 {{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }} 分钟
+                 <span style="color: #999;font-size: 14px">
+                     {{ page.date | date: "%Y/%m/%d" }} 发布
+                     &nbsp;·&nbsp;
+                     1.8k 次阅读
                      &nbsp;·&nbsp;
                      本文 <font color="#FFFFFF">{{ page.content | strip_html | strip_newlines | remove: " " | size }}</font> 字
+                     &nbsp;·&nbsp;
+                     读完需要 {{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }} 分钟
                     </span>
                 {% endif %}
             </span>
