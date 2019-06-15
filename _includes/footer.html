@@ -32,6 +32,18 @@
     <script type="text/javascript" src="{{site.static-url}}/assets/js/script.js"></script>
     <!-- bu Suan zi -->
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script>
+        $(document).ready(function() {
+            var int = setInterval(fixCount, 100);
+            var busuanziSiteOffset = parseInt(10000);
+            function fixCount() {
+                if ($("#busuanzi_container_site_pv").css("display") != "none") {
+                    clearInterval(int);
+                    $("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html()) + busuanziSiteOffset);
+                }
+            }
+        });
+    </script>
 
     {% for javascript in page.javascript %}
     <script src="{{site.static-url}}/assets/js/{{javascript}}"></script>
