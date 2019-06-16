@@ -34,17 +34,10 @@ plugins:
   - jekyll-octicons
   
 # Build settings
-#markdown: kramdown
-#highlighter: rouge
-#lsi:         false
-#excerpt_separator: "\n\n"
-
-highlighter: pygments
-markdown: kramdown  # [ maruku | rdiscount | kramdown | redcarpet ]
-kramdown:
-  input:         GFM
-  auto_ids:      true
-  auto_id_prefix:'id-'
+markdown: kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
 
 
 source:      .
@@ -53,10 +46,10 @@ destination: ./_site
 quiet:    false
 defaults: []
 
-#kramdown:
-#  input: GFM
-#  enable_coderay: true
-#  syntax_highlighter: rouge
+kramdown:
+  input: GFM
+  enable_coderay: true
+  syntax_highlighter: rouge
 
 syntax_highlighter_opts:
    coderay_line_numbers:  nil
