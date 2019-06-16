@@ -29,7 +29,7 @@ phpcs --h
 
 2. 设置默认的编码标准。（这个很重要，建议使用 PSR2 的标准)
 
-```
+```php
 # 查看配置
 $ phpcs -i
 The installed coding standards are MySource, PEAR, PHPCS, PSR1, PSR2, Squiz and Zend
